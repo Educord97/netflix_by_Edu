@@ -1,15 +1,117 @@
-.container-slide {
-  margin: auto 5em;
-  padding: 2em 4em;
+body, html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  margin: 2em 4em;
+}
+
+/*HEADER*/
+
+.nav-header {
+  background-color: blue;
+  
+}
+
+.logo {
+  position: absolute;
+  z-index: 1;
+  color: red; 
+  margin-left: 3em;
+  margin-top: 1.5em;
+}
+
+.img-logo {
+  width: 176px;
+}
+
+.login {
+  float: right;
+  position: relative;
+  z-index: 1;
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 3px;
+  margin-top: 25px;
+  margin-right: 58px;
+  
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+
+.login a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 
-.text-model {
-  position: absolute;
-  background-color: darkolivegreen;
-  transform: translate(180px, 500px);
+.jumbotron {
+  background-image: url(../img/background-1.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+ 
+ 
+}
+
+.container-jumbotron {
+  margin-top: 9em;
+}
+
+.text-body-jb {
   padding: 1em;
-  display: none;
+ 
+}
+
+.text-body-jb h1 {
+  font-size: 4em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.text-body-jb h4 {
+  font-size: 27px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.container-jumbotron p {
+  font-size: 20px;
+  
+}
+
+input {
+ padding-left:  1.2em;
+ padding-right: 1.2em;
+ padding-top: 1.4em;
+ padding-bottom: 1.1em;
+ width: 28em;
+
   
 
 }
+.container-input p {
+  margin-top: 25px;
+}
+
+.container-input button {
+  background-color: red;
+  padding: .88em;
+  width: 24em;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  
+  
+}
+
