@@ -1,7 +1,25 @@
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-  }
+$(document).ready(function(){
   
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  }
+
+$(".div-pai").mouseenter(function(){
+  $(".text-model").show(3000);
+});
+  $(".div-pai").mouseleave(function(){
+    $(".text-model").hide(2000);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
