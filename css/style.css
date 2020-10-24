@@ -1,18 +1,20 @@
-body, html {
+body {
   font-family: 'Open Sans', sans-serif;
+  background-color: red;
+  
 }
 
 .container {
   margin: 2em 4em;
 }
 
-/*HEADER*/
-
-.nav-header {
-  background-color: blue;
-  
+.space {
+  padding: 4px;
+  background-color: #222222;
+  margin-top: -2.2em;
 }
 
+/*HEADER*/
 .logo {
   position: absolute;
   z-index: 1;
@@ -94,7 +96,7 @@ input {
  padding-right: 1.2em;
  padding-top: 1.4em;
  padding-bottom: 1.1em;
- width: 28em;
+ width: 27em;
 
   
 
@@ -105,13 +107,73 @@ input {
 
 .container-input button {
   background-color: red;
-  padding: .88em;
-  width: 24em;
+  padding-top: .23em;
+  padding-bottom: .46em;
+  width: 13em;
   text-transform: uppercase;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: 500;
   letter-spacing: 1px;
   
   
+}
+
+/*Section tv_series*/
+
+.tv_series {
+  background-color: black;
+  margin-top: -2em;
+  min-height: 30vh;
+}
+
+.content_series {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+}
+
+.image_tv {
+  z-index: 1;
+  position: relative;
+}
+
+.video_init {
+  width: 406px;
+}
+
+.video_tv {
+  width: 100px;
+  position: relative;
+  transform: translate(73%,-141%);
+  
+}
+
+.body_text_series{
+  margin-top: 4em;
+}
+.body_text_series h2 {
+  font-size: 3.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 1em;
+  color: white;
+}
+
+.body_text_series p {
+  font-size: 27px;
+  font-weight: 500;
+  color: white;
+  line-height: 36px;
+}
+
+.tv_series_phone {
+  background-color: black;
+  margin-top: -2em;
+  height: auto;
+}
+
+.phone img {
+  width: 100%;
+  height: auto;
 }
 
