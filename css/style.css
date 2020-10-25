@@ -124,7 +124,7 @@ input {
 .tv_series {
   background-color: black;
   margin-top: -2em;
-  min-height: 30vh;
+
 }
 
 .content_series {
@@ -148,10 +148,15 @@ input {
   
 }
 
-.body_text_series{
+.body_text_series_2{
   margin-top: 4em;
+  
 }
-.body_text_series h2 {
+
+.series_2 {
+  width: 110%; 
+}
+.body_text_series_2 h2 {
   font-size: 3.5em;
   font-weight: 600;
   margin-bottom: 20px;
@@ -159,7 +164,7 @@ input {
   color: white;
 }
 
-.body_text_series p {
+.body_text_series_2 p {
   font-size: 27px;
   font-weight: 500;
   color: white;
@@ -169,11 +174,63 @@ input {
 .tv_series_phone {
   background-color: black;
   margin-top: -2em;
-  height: auto;
+  height: 70vh;
+}
+
+.phone {
+  width: 510px;
+  margin-left: -7em;
+  
 }
 
 .phone img {
-  width: 100%;
-  height: auto;
+   width: 500px;
+   height: auto;
+}
+
+.video_2 {
+  width: 350px;
+}
+
+.min-tv_2 {
+  margin-top: 2em;
+
+}
+.tv_2 {
+  transform: translate(95%, -185%);
+}
+
+
+/*Accordion*/
+
+.accord {
+  background-color: black;
+  margin-top: -2em;
+}
+
+.body_title_asks {
+  text-align: center;
+}
+
+.asks {
+  font-size: 3.5em;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: white;
+  padding-top: 1em;
+  
+
+}
+
+.accordion {
+ margin-left: 12%;
+}
+
+.fa-plus {
+  float: right ;
+}
+
+.asks_btn {
+  background-color: #303030;
 }
 
