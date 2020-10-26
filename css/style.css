@@ -55,7 +55,7 @@ body {
 }
 
 
-.jumbotron {
+.jumbotron-header {
   background-image: url(../img/background-1.jpg);
   min-height: 100vh;
   background-size: cover;
@@ -240,6 +240,87 @@ i {
   background-color: #303030;
 }
 
+.card-body p {
+  font-size: 18px;
+}
+
+.container-started {
+  color: white;
+  text-align: center;
+  margin-top: -2em;
+ 
+ 
+}
+
+.container-jumbotron-started {
+  margin-top: -15px;
+  
+}
+
+.footer-container {
+  background-color: black;
+  padding-top: 5em;
+  margin-top: -2em;
+  text-align: left;
+  padding-bottom: 5em;
+}
+
+.footer-container h5 {
+  margin-left: 0px;
+  color: rgba(255, 255, 255, .6);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.footer ul {
+  margin-top: 1rem;
+  list-style-type: none;
+}
+
+.footer a {
+  color: rgba(255, 255, 255, .5);
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.ul_first li {
+  margin-left: -1.5rem;
+  line-height: 30px;
+}
+
+.ul_second li {
+  line-height: 30px;
+
+}
+
+#lang {
+  padding: 14px 20px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, .5);
+  font-size: 20px;
+}
+
+#lang option {
+  background-color: black;
+  color: white;
+}
+
+
+#first_lg {
+  background-color: transparent;
+  color: rgba(255, 255, 255, .5);
+  font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 500px) {
   
   .logo {
@@ -352,12 +433,18 @@ i {
 
   .video_init {
     width: 240px;
+    margin-left: -1.8em;
   }
   
   .video_tv {
     position: relative;
     transform: translate(45%,-139);
     
+  }
+
+  .image_tv img {
+    z-index: 1;
+    position: relative;
   }
 
   .tv_series_phone {
@@ -392,7 +479,8 @@ i {
   }
 
   .video_2 {
-    width: 215px;
+    width: 210px;
+    margin-left: 7px;
   }
   
   .tv_2 {
@@ -413,6 +501,8 @@ i {
     width: 56.4vh;
     
   }
+
+ 
   
 
   
@@ -420,3 +510,4 @@ i {
 
   
 }
+
