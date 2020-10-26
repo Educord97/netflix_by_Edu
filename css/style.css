@@ -12,6 +12,7 @@ body {
   padding: 4px;
   background-color: #222222;
   margin-top: -2.2em;
+  position: relative;
 }
 
 /*HEADER*/
@@ -129,7 +130,7 @@ input {
 
 .content_series {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .image_tv {
@@ -221,6 +222,13 @@ input {
   
 
 }
+.btn-acc {
+
+}
+
+i {
+  font-weight: normal;
+}
 
 .accordion {
  margin-left: 12%;
@@ -234,3 +242,183 @@ input {
   background-color: #303030;
 }
 
+@media screen and (max-width: 500px) {
+  
+  .logo {
+    float: left;
+    margin-left: 16px;
+  }
+
+  .img-logo {
+    width: 25%;
+  }
+
+  .login {
+    padding: 2px 7px;   
+    border-radius: 3px;
+    margin-top: 25px;
+    margin-right: 16px;
+    
+  }
+
+  .login a {
+    font-size: 15px;
+    display: block;
+    padding-bottom: 2px;
+    font-weight: 400;
+  }
+
+  .jumbotron {
+    min-height: 50vh;
+    
+  }
+  .container-jumbotron {
+    margin-top: 4em;
+  }
+
+  .text-body-jb h1 {
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .text-body-jb h4 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .container-jumbotron p {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    
+  }
+
+  input {
+    padding: 10px;
+    width: 51.5vh;  
+   }
+
+   .input-box {
+     margin-left: -1em;
+     margin-top: -1.5em;
+
+   }
+   .container-input p {
+     margin-top: 10px;
+     font-size: 14px;
+     margin-left: 15px;
+   }
+   
+   .container-input button {
+     margin-top: 1rem;
+     background-color: red;
+     padding: 7px;
+     width: 10em;
+     font-size: 17px;
+     font-weight: 400;
+     letter-spacing: 1px;
+     margin-left: 1.8rem;
+     
+     
+   }
+   .container-input button:hover {
+     background-color: gray;
+   }
+
+   .tv_series {
+    overflow: hidden;
+    margin-top: -4em;
+    margin-bottom: -8em;
+    
+  
+  }
+
+   .body_text_series_2 {
+     text-align: center;
+     margin-bottom: -1.8rem;
+     z-index: 2;
+   }
+
+   .body_text_series_2 h2 {
+    font-size: 1.7em;
+    font-weight: 700;
+  }
+  
+  .body_text_series_2 p {
+    font-size: 17px;
+    line-height: normal;
+
+  }
+
+  .video_init {
+    width: 240px;
+  }
+  
+  .video_tv {
+    position: relative;
+    transform: translate(45%,-139);
+    
+  }
+
+  .tv_series_phone {
+    margin-top: -2em;
+    text-align: center;
+    height: auto;
+  }
+
+  .series_2 {
+     text-align: center;
+     margin-bottom: 1rem;
+     margin-left: -1rem;
+     z-index: 2;
+
+  }
+  
+  .phone {
+    width: auto;
+    padding-bottom: 4em;   
+  }
+  
+  .phone img {
+     width: 300px;
+     margin-left: 8em;
+     
+     
+  }
+
+  .sm-screen {
+    margin-bottom: 45px;
+
+  }
+
+  .video_2 {
+    width: 215px;
+  }
+  
+  .tv_2 {
+    transform: translate(55%, -175%);
+  }
+  
+  .asks {
+    font-size: 1.7em;
+    font-weight: 700;
+
+  }
+
+  .accordion {
+    margin-left: -15px;
+  }
+
+  .card {
+    width: 56.4vh;
+    
+  }
+  
+
+  
+  
+
+  
+}
