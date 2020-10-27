@@ -31,10 +31,17 @@
         50% off your  first 2 <br> months</h1> 
         <h4> Watch anywhere. Cancel anytime.</h4>
           <p>Ready to watch? Enter your email to create or restart your membership.</p>
+          
     </div>
     <div class="container-input row">
       <div class="col-12 d-sm-block input-box">
-      <input type="text" placeholder="Email address" id="input_try"><button>Try for 50% Off</button>
+        <form action="#" name="myForm">
+          <p id="output"></p>
+      <input type="text" placeholder="Email address" name="email" required="email">      
+      <button type="button" onclick="validate()">Try for 50% Off</button>
+      
+      
+    </form>
       <p>Only new members are eligible for this offer. </p>
     </div>
     </div>
@@ -217,7 +224,9 @@
   </div>
   <div class="container-input row">
     <div class="col-12 d-sm-block input-box">
-    <input type="text" placeholder="Email address"><button>Get Started</button>
+    <input type="text" placeholder="Email address">
+    <button type="button">Get Started</button>
+
   </div>
   </div>
   </div>

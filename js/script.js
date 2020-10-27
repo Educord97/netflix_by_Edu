@@ -1,7 +1,10 @@
-//Validation Form
 function validate() {
-  var x = document.getElementById("input_try").value;
-  if (x == "" || x == null) {
-    alert("Name necessary");
+
+  output.innerHTML = '';
+  var email = myForm.email;
+  if (email.value == "") {
+    document.getElementById("output").innerHTML = "The email is required!";
+
+    email.focus();
   }
 }
